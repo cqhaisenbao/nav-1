@@ -29,12 +29,21 @@ ol {
 }
 
 .caption {
-    width: 900px;
+    width: 100%;
     display: flex;
-    margin-left: auto;
+    margin-left: 5px;
     margin-right: auto;
     flex-direction: row;
 
+}
+@media (min-width: 500px) {
+    .caption {
+        width: 900px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row;
+    }
 }
 
 .caption .captionLine {
@@ -214,11 +223,19 @@ ol {
 }
 
 .partLine {
-    width: 900px;
+    width: 90%;
     height: 0;
     border-top: 1px dashed #dcdcdc;
-    margin-left: auto;
-    margin-right: auto;
+    margin:20px
+}
+@media (min-width: 500px) {
+    .partLine {
+        width: 900px;
+        height: 0;
+        border-top: 1px dashed #dcdcdc;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .classify-descRow {
@@ -311,4 +328,4 @@ footer > span {
     margin-right: 5px;
 }
 
-/*# sourceMappingURL=style.f0961854.css.map */
+/*# sourceMappingURL=style.034301db.css.map */
