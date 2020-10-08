@@ -128,7 +128,7 @@ var hasMap = xObject || [{
 }, {
   logo: 'B',
   url: 'https://www.bilibili.com/'
-}]; //简化网站名称的函数
+}]; //封装简化网站名称的函数
 
 var simplifyUrl = function simplifyUrl(url) {
   return url.replace('https://', '').replace('http://', '').replace('www.', '').replace(/\/.*/, ''); //删除 /开头的内容
@@ -155,7 +155,7 @@ var render = function render() {
 render(); //添加网站
 
 $('.addButton').on('click', function () {
-  var url = window.prompt('请问你要添加的网址是啥？');
+  var url = window.prompt('请输入你要添加的网址');
 
   if (url.indexOf('http') !== 0) {
     url = 'https://' + url;
@@ -185,4 +185,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.afd7b7cf.js.map
+//# sourceMappingURL=main.95a554c1.js.map
