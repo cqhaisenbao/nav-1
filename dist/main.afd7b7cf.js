@@ -131,7 +131,7 @@ var hasMap = xObject || [{
 }]; //简化网站名称的函数
 
 var simplifyUrl = function simplifyUrl(url) {
-  return url.replace('https://', '').replace('http://', '').replace('www.', '').replace(/\/.*/, ''); //删除 / 开头的内容
+  return url.replace('https://', '').replace('http://', '').replace('www.', '').replace(/\/.*/, ''); //删除 /开头的内容
 };
 
 var render = function render() {
@@ -185,4 +185,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.53ee42be.js.map
+//# sourceMappingURL=main.afd7b7cf.js.map
