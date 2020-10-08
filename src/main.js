@@ -11,7 +11,7 @@ const simplifyUrl = (url) => {
     return url.replace('https://', '')
         .replace('http://', '')
         .replace('www.', '')
-        .replace(/\/.*/, '') //删除 / 开头的内容
+        .replace(/\/.*/, '') //删除 /开头的内容
 }
 
 const render = () => {
