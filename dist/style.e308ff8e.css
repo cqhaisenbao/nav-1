@@ -37,7 +37,7 @@ ol {
         margin:0 0 10px;
         padding-top: 70px;
         padding-bottom: 70px;
-        background-image: url("./image/search-bg.png");
+        background-image: url("/search-bg.98b66828.png");
         background-repeat: no-repeat;
         background-color: #2f3448;
         justify-content: center;
@@ -196,3 +196,5 @@ footer>span{
     font-size: 12px;
     margin-right: 5px;
 }
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
