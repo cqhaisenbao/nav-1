@@ -262,6 +262,11 @@ ol {
 
 .classify-list > li {
     margin-bottom:  10px;
+    transition: 0.3s all ease;
+}
+.classify-list > li:hover {
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.07);
+    transform: translateY(-3px);
 }
 @media (min-width: 500px) {
     .classify-list>li {
