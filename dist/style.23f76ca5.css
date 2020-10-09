@@ -18,7 +18,9 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
-
+body,html{
+    width: 100%;
+}
 body {
     background-color: #eeeeee;
     overflow-x: hidden
@@ -335,4 +337,4 @@ footer > span {
 }
 
 
-/*# sourceMappingURL=style.4d752464.css.map */
+/*# sourceMappingURL=style.23f76ca5.css.map */
