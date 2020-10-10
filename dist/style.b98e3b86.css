@@ -18,6 +18,9 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+html{
+    scroll-behavior: smooth ;
+}
 body,html{
     width: 100%;
 }
@@ -31,7 +34,7 @@ ol {
     list-style: none;
 }
 
-.caption {
+.caption {   /*这里一开始宽度是100%，又有外边距，导致移动端左右可以移动，通过看盒模型可以看到这部分宽度溢出了；之所以有左外边距是为了竖线好看，但这里更好的处理方法是还是宽度100%，调节竖线div的margin-left*/
     width: 95%;
     display: flex;
     margin-left: 5px;
@@ -336,5 +339,27 @@ footer > span {
     margin-right: 5px;
 }
 
+/*回到顶部*/
+@media (min-width: 500px){
+#back-top {
+    position: fixed;
+    _position: absolute;
+    right: 240px;
+    bottom: 130px;
+    z-index: 11;
+    left: 90%;
+}
+#back-top a {
+    width: 48px;
+    height: 48px;
+    display: block;
+    background: url(https://weixin.sogou.com/new/pc/images/new_back.png) 0 0 no-repeat;
+}
 
-/*# sourceMappingURL=style.eea49e07.css.map */
+#back-top a:hover {
+    background: url(https://weixin.sogou.com/new/pc/images/new_back2.png) 0 0 no-repeat;
+}
+}
+
+
+/*# sourceMappingURL=style.b98e3b86.css.map */
