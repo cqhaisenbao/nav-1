@@ -120,6 +120,7 @@ ol {
     padding: 0 10px;
     border: 1px solid #dddddd;
     border-radius: 4px;
+    outline: none;
 }
 
 .searchForm > button {

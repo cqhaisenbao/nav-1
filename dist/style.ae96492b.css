@@ -120,6 +120,7 @@ ol {
     padding: 0 10px;
     border: 1px solid #dddddd;
     border-radius: 4px;
+    outline: none;
 }
 
 .searchForm > button {
@@ -362,4 +363,4 @@ footer > span {
 }
 
 
-/*# sourceMappingURL=style.b98e3b86.css.map */
+/*# sourceMappingURL=style.ae96492b.css.map */
